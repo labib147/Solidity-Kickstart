@@ -1,2 +1,2 @@
-# crispy-octo-eureka
+# Diving into Solidity
 Kickstarting 2022
