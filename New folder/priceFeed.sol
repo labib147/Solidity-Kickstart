@@ -16,6 +16,10 @@ contract PriceConsumerV3 {
         priceFeed = AggregatorV3Interface(0x9326BFA02ADD2366b30bacB125260Af641031331);
     }
     // Constructor only executes once during contract creation
+    
+    /* Needs to be deployed in Ethereum testnet because the imported chainlink does not know about your local machine so cannot deploy locally.
+    Connect Metamask to Kovan testnet and use test ether to deploy on the Kovan testnet.    
+    */
  
     /**
      * Returns the latest price
