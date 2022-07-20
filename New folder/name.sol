@@ -11,6 +11,12 @@ contract MyFirstContract {
         names.push(_name);
     }
     
+    /*
+     Memory: We want to store it on the temporary memory of evm executing the smartContract
+     Just the duration of the function execution
+     We don't want to store it in persistant storage
+    */
+    
     function getName(uint _index) public view returns (string memory) {
         return names[_index];
     }
